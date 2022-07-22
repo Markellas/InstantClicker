@@ -18,4 +18,4 @@ while True:
 
     root.click(clicks=clcks_amount, interval=interval_var)
 
-    print("Clicks were succsessful! Continue using InstantClicker if want")r
+    print("Clicks were succsessful! Continue using InstantClicker if want")
