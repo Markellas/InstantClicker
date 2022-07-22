@@ -2,7 +2,7 @@ import pyautogui as root
 import time
 from time import sleep
 
-print("Welcome to the InstantClick!")
+print("Welcome to the InstantClicker by Markella's!")
 
 while True:
     clcks_amount = input("Enter the amount of clicks: ")
@@ -12,6 +12,10 @@ while True:
     timetospend = input("Enter the wait time before the click: ")
     timetospend = int(timetospend)
 
+    print(f"InstantClicker is waiting for {timetospend} seconds to you to place the cursor...")
+
     time.sleep(timetospend)
 
-    root.click(clicks=clcks_amount, interval=interval_var
+    root.click(clicks=clcks_amount, interval=interval_var)
+
+    print("Clicks were succsessful! Continue using InstantClicker if want")r
