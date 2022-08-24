@@ -2,7 +2,7 @@ import pyautogui as root
 import time
 from time import sleep
 
-print("Welcome to the InstantClicker by Markella's! \n https://github.com/Markellas/InstantClicker")
+print("Welcome to the InstantClicker by Markella's! \n \n https://github.com/Markellas/InstantClicker")
 
 while True:
     print("")
